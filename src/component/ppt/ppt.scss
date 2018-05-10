@@ -1,0 +1,64 @@
+.online_ppt_wrap{
+    float: left;
+    width: 70%;
+    height: calc(100% - 70px);
+    padding: 10px;
+    box-sizing: border-box;
+    background:rgba(255,255,255,1);
+    box-shadow: 0px 1px 3px 0px rgba(140,140,140,0.5);
+    border-radius:4px;  
+    .online_ppt{
+        height: calc(100% - 40px);
+        width: 100%;
+        background: url(../../images/01.jpg)left center no-repeat;
+    } 
+    .online_ppt_tool{
+        height: 40px;
+        padding: 5px;
+        box-sizing: border-box;
+        .ppt_list{
+            float: left;
+            height: 30px;
+            .ppt_list_btn{
+                width: 90px;
+                border-right:1px solid #eee;
+                height: 30px;
+                margin-left: 5px;
+                .ppt_list_icon{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 2px;
+                    background: url(../../images/ppt_icon.png)left center no-repeat;
+                    float: left;
+                }
+                .ppt_list_text{
+                    color:rgb(116,116,116);
+                    float: left;
+                    font-size: 14px;
+                    line-height: 30px;
+                    height: 30px;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .ppt_clean{
+            float: left;
+            height: 30px;
+            .ppt_clear_icon{
+                width: 30px;
+                height: 30px;
+                border-radius: 2px;
+                float: left;
+                background: url(../../images/clean_icon.png)left center no-repeat;
+            }
+            .ppt_clear_text{
+                color:rgb(116,116,116);
+                float: left;
+                font-size: 14px;
+                line-height: 30px;
+                height: 30px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
